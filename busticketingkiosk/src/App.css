@@ -1,0 +1,37 @@
+.home-styles {
+  background-color: white;
+}
+
+.navbar-buttons {
+  margin-right: 5px;
+  background-color: transparent;   
+  opacity: 0.5; 
+}
+
+button.navbar-buttons.selected-language {
+  background-color: #00397a; 
+  color: white;
+  border-color: #003369;
+  opacity: 1;
+}
+
+.parent-container {
+  display: flex; /* Display items vertically */
+  flex-direction: column; /* Arrange items from top to bottom */
+  align-items: center; /* Center items horizontally */
+  margin: 50px
+}
+
+.svg-container {
+  display: flex; /* Create a horizontal flex container for the two SVGs */
+  justify-content: space-between; /* Distribute the SVGs to the start and end */
+  width: 100%;
+}
+
+img{
+  padding: 2px
+}
+
+.footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+}

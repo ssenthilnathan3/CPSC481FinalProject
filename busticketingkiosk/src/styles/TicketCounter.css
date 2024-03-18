@@ -1,0 +1,43 @@
+.ticket-counter {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ticket-icon {
+    width: 50px;
+    margin-right: 25px;
+}
+
+.decrement-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    font-size: 20px;
+    background-color: #F15757;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.increment-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    font-size: 20px;
+    background-color: #75DF4B;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.decrement-button:hover {
+    background-color: #c50707;
+}
+
+.increment-button:hover {
+    background-color: #216e02;
+}
+
+.count-display {
+    padding: 0 20px;
+}

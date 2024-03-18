@@ -1,0 +1,9 @@
+.progress-container {
+    margin: 20px 0;
+    margin-bottom: 25px;
+}
+
+.progress-bar {
+    background-color: #138cd3; 
+    border-radius: 10px;
+}

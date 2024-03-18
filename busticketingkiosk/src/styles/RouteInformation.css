@@ -1,0 +1,21 @@
+.button-lightgrey {
+    background-color: #b6b6b6; 
+    color: #0c0c0c;
+    margin-top: 50px;
+    margin-left: auto;
+}
+
+.button-lightgrey:hover {
+    background-color: #4e4c4c;
+}
+
+.button-lightblue {
+    background-color: #8DBCE9; 
+    color: #0c0c0c;
+    margin-top: 50px;
+}
+
+.emphasize-route {
+    font-weight: bold;
+    background-color: #e6e6e6;
+  }

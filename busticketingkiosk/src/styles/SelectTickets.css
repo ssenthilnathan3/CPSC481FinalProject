@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eceaea;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  button {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+  }
+  
+  .dropdown-toggle {
+    width: 100%;
+  }
+
+  .custom-dropdown-menu {
+    max-height: 175px; 
+    overflow-y: auto;
+}
+
+.label-text-select-route {
+    margin-left: 25px;
+}
+
+.label-text-departure {
+    margin-left: 25px;
+    margin-top: 150px; 
+}
+
+.label-text-duration {
+    margin-left: 25px;
+    margin-top: 15px; 
+}
+
+.duration-logo {
+    margin-left: 25px;
+    width: 100px;
+}
+
+.ticket-counter {
+    margin-top: 65px;
+}
+
+.button-light-grey{
+    background-color: #e0e0e0; 
+    color: #0c0c0c;
+    margin-right: 900px;
+    margin-top: 50px;
+}
+
+.button-light-grey:hover{
+    background-color: #999999; 
+}
+
+.button-light-green{
+    background-color: #c2eec2; 
+    color: #0c0c0c;
+}
+
+.button-light-green:hover{
+    background-color: #09b309; 
+}
+
+.ticket-validity-note {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #d39614; /* Or any color that fits your design */
+}
